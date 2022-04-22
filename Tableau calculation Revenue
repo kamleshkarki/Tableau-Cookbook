@@ -81,3 +81,14 @@ IF [Difference%]<0 Then "▼"
 22. Up Trend
 IF [Difference%]>0 Then "▲"
 END
+
+
+
+
+Now, let's take a look at the revenue formula itself (in both forms):
+
+For a product-based business, the formula is
+Revenue = Number of Units Sold x Average Price.
+
+For service-based companies, the formula is
+Revenue = Number of Customers x Average Price of Services.
