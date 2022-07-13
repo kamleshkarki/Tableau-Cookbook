@@ -89,3 +89,9 @@ Revenue = Number of Units Sold x Average Price.
 
 For service-based companies, the formula is
 Revenue = Number of Customers x Average Price of Services.
+
+Nbr to date
+DATE(DATEPARSE ( "yyyyMMdd", STR([Date]) ))
+
+
+
