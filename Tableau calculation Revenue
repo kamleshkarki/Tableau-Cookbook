@@ -93,5 +93,5 @@ Revenue = Number of Customers x Average Price of Services.
 Nbr to date
 DATE(DATEPARSE ( "yyyyMMdd", STR([Date]) ))
 
-
-
+Top N Bottom N
+INDEX() <= 10 OR LAST() < 10
