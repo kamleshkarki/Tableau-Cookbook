@@ -1,3 +1,6 @@
+Month==
+DATETRUNC('month', [Order Date])
+
 1.CYMTD--
 [YEAR]<=TODAY() AND DATETRUNC('month',[YEAR])=
 DATETRUNC('month',TODAY())
