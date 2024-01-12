@@ -99,6 +99,19 @@ Current week date=
 Week Ending Date
 DATE(DATETRUNC('week',[Order Date],'Monday')) + 5
 
+1. Fixed LOD expressions: when we want to aggregate data at a higher level of detail, comparisons across different views.
+{ FIXED [Category] : AVG([Sales]) }
+
+2. Include LOD expressions: used to create a dynamic set of values based on one or more dimensions.
+{ INCLUDE [Region], [Category] : SUM([Profit]) }
+
+
+3. Exclude LOD expressions: use when a specify dimension to exclude from the computation of an aggregate value
+{ EXCLUDE [Segment] : MIN([Discount]) }
+
+
+SUM(IF [Sub-Category] IS NOT NULL THEN [Sales] END)
+
 Nbr to date
 DATE(DATEPARSE ( "yyyyMMdd", STR([Date]) ))
 
