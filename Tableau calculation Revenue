@@ -1,3 +1,4 @@
+datediff('day',[order date],[shipdate],'Sunday')
 Month==
 DATETRUNC('month', [Order Date])
 
